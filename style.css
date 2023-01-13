@@ -1,0 +1,36 @@
+.blok{
+    border: 3px solid plum;
+    height: 600px;
+    width: 600px;
+    margin: 100px;
+   background-color: bisque;
+}
+.img{
+    height: 200px;
+    width: 200px;
+    animation-name:box ;
+    animation-duration: 5000ms; 
+    animation-timing-function:linear ; 
+    animation-delay: 1000ms; 
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    
+}
+@keyframes box{
+0%{
+transform: translate(0px,0px) rotate(0deg);
+}
+25%{
+transform: translate(0px,400px) rotate(0deg);
+}
+50%{
+transform: translate(400px,400px) rotate(0deg);
+}
+75%{
+transform: translate(400px,0px) rotate(0deg);
+}
+100%{
+transform:translate(0px,0px) rotate(0deg);
+}
+
+}
